@@ -1,0 +1,62 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+
+}
+.row div {
+	
+	border: 1px solid grey;
+	
+	
+}
+.row img {
+	width:100%;
+	
+	
+}
+.row{
+	position: relative;
+}
+.dateTime footer {
+color: grey;
+}
+.row>div{
+	
+	width: 32%;
+	height:350px;
+	float: left;
+	position: relative;
+
+}
+.socialButtons span {
+	margin:42px;
+	
+
+}
+.dateTime  {
+width: 60px;
+height: 70px;
+position:absolute;
+top:0;
+padding: 10px;
+
+}
+.dateTime span:first-child{
+	background: #2A969D;
+	
+	/*padding: 10px;*/
+	margin: 110px 15px 10px 10px ;
+}
+.dateTime span:last-child{
+    background: #3C4F6B;
+	padding: 5px;
+	margin: 10px 25px 20px 10px ;
+
+}
